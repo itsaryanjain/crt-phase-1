@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/aryanjain/Downloads/crt phase 1/first'
+relocations:     []
+...
