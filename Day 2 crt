@@ -14,3 +14,30 @@ int main() {
 
     return 0;
 }
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+   cin >>age;
+   if(age>=18){
+       if(age>100){
+           cout<<"Eligible for vote(but super senior), ";
+           
+       }else {
+           cout<<"eligible for vote";
+       }
+       }else{
+           if(age<0){
+               cout<<"enter a valid age number";
+           }else{
+               cout<<"not eleigble for vote";
+           }
+       }
+     
+
+    return 0;
+}
