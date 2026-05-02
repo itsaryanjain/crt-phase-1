@@ -153,3 +153,37 @@ int main() {
     }
     return 0;
 }
+// Problem 10
+// SmartPhone Unlock 
+// Try to unlock the phone until we get the correct password 
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int password;
+//     do {
+//         cout << "Enter the password...";
+//         cin >> password;
+//     } while(password != 1234);
+//     cout << "Phone unlocked!...";
+    
+//     return 0;
+// }
+
+// Problem 11
+// Water Jar Filler (while)
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int currentWater = 0;
+    int add;
+    while(currentWater < 500){
+        cout << "Glass has" << currentWater << "ml. and how much ?";
+        cin >> add;
+        currentWater = currentWater + add;
+    }
+    cout << "Glass is full with water: " << currentWater << "ml";
+    
+}
