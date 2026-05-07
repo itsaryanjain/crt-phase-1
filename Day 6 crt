@@ -1,0 +1,76 @@
+// #include <iostream>
+// using namespace std;
+// int billing(int a) { return a * 30; }
+// int main() {
+//     int coffee = 3;
+//     cout << "Total Bill: " << billing(coffee);
+// }
+
+// ==============================================
+// 💎 PROBLEM 05: SMART AC REMOTE ❄️
+// 📝 Task: Use Overloading and Defaults for AC control
+// ==============================================
+
+// #include <iostream>
+// using namespace std;
+// void setTemprature(int temp = 22){
+//     cout << "Temperature set to " << temp  << "°C" << "\n";
+// }
+// void setTemprature(double temp){
+//     cout << "Temperature set to " << temp  << "°C" << "\n";
+// }
+// void setTemprature(string mode) {
+//     if(mode == "ECO") cout << "Temperature set to 24°C (ECO Mode)\n";
+//     else if(mode == "TURBO") cout << "Temperature set to 18°C (TURBO Mode)\n";
+// }
+
+// ==============================================
+// 💎 PROBLEM 06: CLASSES & OBJECTS 🏗️
+// 📝 Task: Blueprint for a Student and its instances
+// 🖼️ Concept:
+// [ Object s1: Name="Abhishek", Age=24 ]
+// ==============================================
+
+// #include <iostream>
+// using namespace std;
+// class Student {
+// public:
+//     string name;
+//     int age;
+//     void introduce(){
+//         cout << "Hi there, this person name is " << name << " and his age is " << age << "\n";
+//     }
+// };
+// int main() {
+//     Student s1;
+//     s1.name = "Abhishek"; s1.age = 24;
+//     s1.introduce();
+// }
+
+// ==============================================
+// 💎 PROBLEM 07: ACCESS MODIFIERS (PUBLIC) 🔓
+// 📝 Task: Demonstrating 'public' access from main()
+// ==============================================
+
+#include <iostream>
+using namespace std;
+
+class PublicPark{
+public:
+    // Available to everyone outside the class
+    void enter() {
+        cout << "Anyone can enter in the park...";
+    }
+};
+
+int main() {
+    PublicPark p;
+    p.enter(); // Accessible because it is public
+    return 0;
+}
+
+/*
+ * ----------------------------------------------
+ * ✅ END OF DAY 06 CODEBASE
+ * ----------------------------------------------
+ */
